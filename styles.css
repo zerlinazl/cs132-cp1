@@ -1,0 +1,11 @@
+img {
+    width: 30%;
+}
+
+footer{
+    background-color: #e2e2e2;
+    line-height: 120px;
+    margin: 15px auto;
+    width: 100%;
+    text-align: center;
+}
