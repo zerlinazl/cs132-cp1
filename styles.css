@@ -1,11 +1,75 @@
+
+
+body {
+    margin:0%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside {
+    width: 200%;
+    padding: 4%;
+}
+
+.location-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5%;
+    margin: auto;
+}
+
+.location {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+#sidebar-split {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+p, h3 {
+    font-family: "Montserrat", "Open Sans", sans-serif;
+}
+
+h3 {
+    font-weight:bold;
+}
+
 img {
-    width: 30%;
+    width: 60%;
 }
 
 footer{
     background-color: #e2e2e2;
-    line-height: 120px;
-    margin: 15px auto;
     width: 100%;
     text-align: center;
+}
+
+footer > p {
+    padding: 6%;
+    font-size: 0.8em;
+}
+
+h1, h2, h4 {
+    text-transform: uppercase;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+h1 {
+    font-size: 4em;
+    margin-bottom: 0%;
+}
+
+h4 {
+    font-weight: lighter;
+}
+
+header {
+    background-color: #e2e2e2;
+    width: 100%;
+    padding: 8%;
+    padding-left: 4%;
 }
