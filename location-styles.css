@@ -4,6 +4,14 @@ body {
 
 }
 
+header {
+    background-color: #e2e2e2;
+    padding-top: 8%;
+    padding-left: 4%;
+    padding-right: 0%;
+    padding-bottom: 4%;
+}
+
 img {
     width: 300px;
     border-radius: 50%;
@@ -18,13 +26,3 @@ img {
 .food-descrip > p {
     margin: 5%;
 }
-
-
-header {
-    background-color: #e2e2e2;
-    padding-top: 8%;
-    padding-left: 4%;
-    padding-right: 0%;
-    padding-bottom: 4%;
-}
-
