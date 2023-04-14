@@ -8,7 +8,6 @@ Very basic, but clean, look, consistent across pages.
 
 body {
     margin:0%;
-    display: flex;
     flex-wrap: wrap;
 }
 
@@ -39,6 +38,10 @@ h1, h2, h4 {
     font-family: 'Fira Sans Condensed', sans-serif;
 }
 
+body, .location-buttons, #sidebar-split {
+    display: flex;
+}
+
 h1 {
     font-size: 4em;
     margin-bottom: 0%;
@@ -66,7 +69,6 @@ header, footer {
 }
 
 .location-buttons {
-    display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     padding: 5%;
@@ -74,6 +76,5 @@ header, footer {
 }
 
 #sidebar-split {
-    display: flex;
     flex-direction: row-reverse;
 }
