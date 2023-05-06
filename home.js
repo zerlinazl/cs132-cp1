@@ -1,13 +1,17 @@
 /**
  * JS for main page for CP2, extending CP1.
+ * Requirements: make at least 2 actions responding to different events.
  */
 (function() {
     "use strict";
 
     // consts
+    // An assortment of colors to randomly assign to the location button elements.
+    // Includes purple-gray, sunset pink, jet, cambridge blue, and citron
     const COLOR_PALETTE = ["#7a7485", "#FF7C74", "#35353C", "#87CBAC", "#DEC56A", "#504C57", "#322F37"];
     
     // module globals
+    // to count the number of food samples on page
     let numFood = 0;
 
     function init() {
@@ -21,6 +25,7 @@
         hungryBtn.addEventListener("click", genFood);
     }
 
+    // randomly assigns a color to each location button upon hover
     function hoverResponse() {
         const btns = qsa("h2");
         for (let i=0; i<btns.length; i++) {
@@ -28,6 +33,9 @@
         }
     }
 
+    // generate or replace "food sample" food images.
+    // creates new children until there are 4 on page, then further clicks replace existing images.
+    // uses appendChild, replaceChild, and calls toggleHidden which contains the classList modifier.
     function genFood() {
         numFood += 1;
         const container = qs("#food-imgs");
@@ -50,6 +58,8 @@
         }
     }
 
+    // reveals a message once you click "I'm hungry" 5 times.
+    // uses classList toggle function.
     function toggleHidden() {
         let hidden = qs(".hidden");
         hidden.classList.toggle("hidden");

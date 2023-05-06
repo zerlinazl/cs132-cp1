@@ -26,10 +26,12 @@ img {
 }
 
 a {
+    /*taupe gray purple*/
     color: #7a7485;
 }
 
 a:hover {
+    /*jet*/
     color: #35353C;
 }
 
