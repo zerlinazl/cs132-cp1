@@ -25,6 +25,20 @@ img {
     margin: 2%;
 }
 
+a {
+    color: #7a7485;
+}
+
+a:hover {
+    color: #35353C;
+}
+
+h4 {
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 14pt;
+}
+
 .food-descrip {
     padding: 4%;
     display: flex;

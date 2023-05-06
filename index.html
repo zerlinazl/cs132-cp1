@@ -20,6 +20,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
     <title>Finding Home Through Food</title>
+
+    <!-- Link scripts -->
+    <script defer src="helpers.js"></script>
+    <script defer src="home.js"></script>
 </head>
 <body>
     <header>
@@ -34,19 +38,19 @@
                         <h2><a href="bay.html">Bay Area</a></h2>
                         <!-- image from https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/2020-07/SFBA_San%20Francisco_Golden%20Gate%20Bridge.jpeg 
                                 by: Max Whittaker-->
-                        <img src="sf-goldengate.jpg" alt="Aerial view of the Golden Gate Bridge">
+                        <!-- <img src="sf-goldengate.jpg" alt="Aerial view of the Golden Gate Bridge"> -->
                     </div>
                     <div class="location">
                         <h2><a href="la.html">Los Angeles</a></h2>
                         <!-- image from https://www.travelinusa.us/wp-content/uploads/sites/3/2019/05/sunset-strip.jpg 
                                 by: Travel in USA-->
-                        <img src="sunset-la.jpg" alt="Aerial view of LA">
+                        <!-- <img src="sunset-la.jpg" alt="Aerial view of LA"> -->
                     </div>
                     <div class="location">
                         <h2><a href="hk.html">Hong Kong</a></h2>
                         <!-- image from https://s3-ap-northeast-1.amazonaws.com/psh-ex-ftnikkei-3937bb4/images/5/2/3/8/39678325-1-eng-GB/0410_Neon-186.jpg 
                                 by: Nikkei Asia-->
-                        <img src="hk-neon.jpg" alt="Neon lights in HK">
+                        <!-- <img src="hk-neon.jpg" alt="Neon lights in HK"> -->
                     </div>
                 </div>
             </section>
@@ -57,8 +61,22 @@
                     I go to university in Los Angeles! I have always had strong connections to my Hong Kong 
                     and Chinese cultural heritage. I love trying new foods and exploring the world.
                 </p>
+                <p>
+                    Mouse over the location buttons for some cool colors!
+                </p>
             </aside>
         </div>
+        <hr>
+        <section>
+            <div id="food-samples">
+                <h4>Generate Some Food Samples!</h4>
+                <button>I'm Hungry</button>
+                <p class="hungry hidden">But there's so much food already...</p>
+            </div>
+            <div id="food-imgs">
+                <img src="food1.png" alt="food1">
+            </div>
+        </section>
     </main>
     <footer>
         <p>See source code for image citations.</p>
